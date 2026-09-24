@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1788864148166,
+      "tag": "0000_magenta_randall",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1788866245976,
+      "tag": "0001_nostalgic_slapstick",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1790011420324,
+      "tag": "0002_rainy_human_fly",
+      "breakpoints": true
+    }
+  ]
+}

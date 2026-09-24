@@ -1,0 +1,19 @@
+.preview-dialog .preview-actions {
+ display: grid;
+ grid-template-columns: repeat(3, minmax(0, 1fr));
+ gap: 8px;
+ flex-shrink: 0;
+}
+.preview-dialog .preview-actions button {
+ min-width: 0;
+ min-height: 44px;
+ justify-content: center;
+ padding: 10px 8px;
+ font-size: 14px;
+ white-space: nowrap;
+ gap: 6px;
+}
+.preview-dialog .preview-actions svg { width: 19px; height: 19px; flex-shrink: 0; }
+@media (max-width: 370px) {
+ .preview-dialog .preview-actions button { flex-direction: column; gap: 3px; }
+}

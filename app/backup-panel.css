@@ -1,0 +1,21 @@
+.backup-status-heading{display:flex;align-items:center;gap:12px}
+.backup-status-icon{display:grid;place-items:center;width:42px;height:42px;border-radius:12px;background:#edf6f0;color:#19674d;flex-shrink:0}
+.backup-status-icon svg{width:23px;height:23px}
+.backup-status-enabled{display:flex;align-items:center;gap:4px;font-size:14px;color:#267050;margin-top:3px}
+.backup-status-enabled svg{width:15px;height:15px}
+.backup-latest{display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px 12px;padding:12px 0;border-top:1px solid #e5ece7;font-size:14px}
+.backup-latest>span{color:#718176}.backup-latest>strong{font-weight:600;font-variant-numeric:tabular-nums}
+.backup-actions{display:flex;gap:8px;flex-wrap:wrap}.backup-actions>button{flex:1;min-height:42px;justify-content:center;font-size:14px;gap:7px;box-shadow:none;padding:9px 12px}
+.settings-backup-card>.backup-independent{margin:10px 0 0;font-size:14px}
+.backup-warning,.settings-backup-card>.backup-warning{color:#94512f;font-size:14px;line-height:1.5}
+.backup-history-heading{display:flex;align-items:center;justify-content:space-between;gap:10px}.backup-history-heading>span{font-size:14px;color:#718176}
+.backup-history ul{list-style:none;margin:12px 0 0;padding:0}
+.backup-history li{padding:14px 0;border-top:1px solid #e5ece7}.backup-history li:last-child{padding-bottom:0}
+.backup-entry-heading{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:6px 10px}
+.backup-entry-heading strong{font-weight:600;font-size:15px;font-variant-numeric:tabular-nums}
+.backup-reason{font-size:13px;background:#f0f6f2;color:#527462;border-radius:5px;padding:3px 6px}
+.backup-checkpoint{background:#fff2e6;color:#94512f}
+.backup-history li p{margin:5px 0 9px}.backup-entry-actions{display:flex;gap:8px;flex-wrap:wrap}
+.backup-entry-actions>button{font-size:14px;min-height:38px;padding:7px 10px;gap:6px;color:#19674d;box-shadow:none}.backup-entry-actions svg,.backup-actions svg{width:17px;height:17px}
+.backup-error{padding:12px 14px;border:1px solid #eacdc3;background:#fff8f4;border-radius:10px;display:grid;gap:8px;font-size:14px;color:#94512f;overflow-wrap:anywhere}
+.backup-error>button{justify-self:start;font-size:14px;box-shadow:none}

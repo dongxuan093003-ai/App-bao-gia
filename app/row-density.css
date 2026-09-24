@@ -1,0 +1,12 @@
+/* Consistent compact spacing for merchandise across desktop and mobile. */
+.price-table.single-price td{padding-top:3px;padding-bottom:3px}
+.price-table.single-price th{height:36px;padding-top:5px;padding-bottom:5px}
+.price-table.single-price .price{height:32px;padding-top:4px;padding-bottom:4px}
+.price-table.single-price .group-row td{padding-top:6px!important;padding-bottom:6px!important}
+.price-table.single-price .compact button{padding-top:4px;padding-bottom:4px}
+.editor-dialog.compact-editor .select-row{min-height:40px;padding-top:3px;padding-bottom:3px;row-gap:3px}
+.editor-dialog.compact-editor .select-row>.price{height:32px;padding-top:4px;padding-bottom:4px}
+.editor-dialog.compact-editor .group-check{padding-top:3px;padding-bottom:3px}
+.editor-dialog.compact-editor .group-toggle{padding-top:3px;padding-bottom:3px}
+.editor-dialog.compact-editor .quote-group{margin-bottom:5px}
+.change-list>div{padding-top:6px;padding-bottom:6px}

@@ -1,0 +1,15 @@
+.refined-prices th{width:auto!important;min-width:0!important}
+.refined-prices .unit-column{width:50px}.refined-prices .price-column{width:170px}.refined-prices .manage-column{width:155px}
+.refined-prices .product-unit{text-align:center;color:#84918a;font-size:13px;padding-left:2px;padding-right:2px}
+.refined-prices .product-name{font-weight:400;min-width:0;max-width:100%;line-height:1.35}
+.price-table.refined-prices .price{background:#fff;border-color:#edf1ee;box-shadow:none}
+.price-table.refined-prices .price:focus{border-color:#398363;outline:2px solid #e5f2ea;outline-offset:0}
+.price-table.refined-prices .price.zero{border-color:#dca469;background:#fff8ef}
+.refined-prices .choice{justify-content:flex-start!important;gap:9px;background:transparent!important;border:0!important;box-shadow:none!important;padding:3px 0!important;min-height:34px!important;color:#185f44;font-weight:700;font-size:15px;white-space:nowrap!important}
+.refined-prices .choice [data-slot=select-value]{flex:0 1 auto}
+.refined-prices .group-price-label{text-align:right;color:#6e8477;font-size:13px;font-weight:500}
+.price-group-toggle{display:flex;align-items:center;gap:7px;width:100%;padding:0;border:0;background:none;text-align:left;color:#285b43;white-space:normal}
+.price-group-toggle strong{font-size:14px;font-weight:600}.price-group-toggle svg{width:14px;height:14px;flex-shrink:0;transition:transform .15s}.price-group-toggle[aria-expanded=true] svg{transform:rotate(90deg)}
+.prices-page .price-heading{margin-bottom:9px}.prices-page .price-save>button{border:0;box-shadow:none;background:transparent;padding:7px}.prices-page .price-save small{font-size:12px}
+.topbar{padding-top:9px;padding-bottom:9px}.bottom-nav{height:68px!important}.bottom-nav [data-slot=tabs-trigger],.bottom-nav .nav-create{gap:4px}
+@media(max-width:800px){.refined-prices .unit-column{width:35px}.refined-prices .price-column{width:36%}.refined-prices .manage-column{display:none}.price-table.refined-prices td{padding-left:8px;padding-right:8px}.price-table.refined-prices .product-unit{padding-left:0;padding-right:0}.refined-prices .choice{font-size:14px}.prices-page .price-heading h1{font-size:22px}.price-group-toggle strong{font-size:13px}.topbar{padding-top:8px;padding-bottom:8px}.bottom-nav{height:65px!important}.bottom-nav [data-slot=tabs-trigger] svg,.bottom-nav .nav-create svg{width:22px!important;height:22px!important}}

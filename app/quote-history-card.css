@@ -1,0 +1,31 @@
+.history-quote-card{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;column-gap:10px;row-gap:4px;padding:10px 14px;border-bottom:1px solid #e3ebe6;background:#fff}
+.history-quote-card:last-child{border-bottom:0}
+.history-quote-card[data-saved-quote=true]{background:#e7f5ed;box-shadow:inset 3px 0 #258560}
+.history-quote-time{grid-column:1/-1;display:flex;gap:13px;align-items:center;color:#829188;font-size:13px;font-variant-numeric:tabular-nums;line-height:1.4}
+.history-quote-customer{min-width:0;font-size:17px;font-weight:650;line-height:1.4;color:#233e32;margin:0;overflow-wrap:anywhere}
+.history-quote-info{min-width:0;display:grid;gap:3px}
+.history-quote-contact{margin:0;font-size:14px;line-height:1.45;color:#526b5e;overflow-wrap:anywhere}
+.history-quote-contact>span{color:#7a8a81}
+.history-quote-contact>a{color:#17684c;font-variant-numeric:tabular-nums;white-space:nowrap;text-decoration:underline;text-decoration-color:#b6d3c3;text-underline-offset:3px}
+.history-quote-actions{display:flex;justify-content:flex-end;justify-self:end;align-self:start;gap:5px}
+.history-quote-actions>button{display:grid;place-items:center;width:36px;height:36px;min-height:36px;min-width:36px;padding:8px;background:#fff;border:1px solid #e1e9e3;border-radius:7px;box-shadow:none;color:#597061}
+.history-quote-actions>button svg{width:18px;height:18px;flex-shrink:0}
+.history-quote-menu{min-width:170px}
+.history-quote-menu [data-slot=dropdown-menu-item]{min-height:38px;padding:8px 10px;gap:9px;font-size:14px}
+.history-quote-actions>button:disabled{opacity:.5}
+.history-quote-actions>button:focus-visible{outline:2px solid #267b59;outline-offset:2px}
+.quote-image-loading{animation:quote-image-spin 1s linear infinite}
+@keyframes quote-image-spin{to{transform:rotate(360deg)}}
+@media(prefers-reduced-motion:reduce){.quote-image-loading{animation:none}}
+.compact-editor .quote-header-code{font-variant-numeric:tabular-nums}
+@media(min-width:700px){.history-quote-card{padding:12px 18px}.history-quote-customer{font-size:18px}}
+
+.history-quote-customer>.template-use{justify-content:space-between;width:100%;min-height:36px;gap:12px}
+.template-name-dialog{max-width:440px!important;max-height:85dvh;overflow-y:auto}
+.template-name-dialog form{display:grid;gap:16px}
+.template-name-dialog .actions{justify-content:flex-end}
+
+.history-search{position:relative;flex:0 1 200px;width:100%;max-width:200px;min-width:0}
+.history-search>.search{width:100%;max-width:none;padding-right:44px}
+.history-search-clear{position:absolute;right:4px;top:50%;transform:translateY(-50%);width:34px;height:34px;padding:6px;border:0;background:transparent;box-shadow:none;color:#7a8b80}
+@media(max-width:800px){.history-search{flex:1 0 100%;max-width:none}}
